@@ -7,7 +7,7 @@ public class Main {
 
         Recorrido recorrido = null;
         try {
-            recorrido = new Recorrido("Buenos Aires", "Alberti");
+            recorrido = new Recorrido("Bueno Aires", "Alberti");
         } catch (RecorridoException e) {
             e.printStackTrace();
         }

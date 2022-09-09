@@ -13,7 +13,7 @@ public class Recorrido {
         if (!getEstacionesPosibles().contains(estacionPartida.toLowerCase()) ||
                 !getEstacionesPosibles().contains(estacionDestino.toLowerCase()))
         {
-            throw new RecorridoException(estacionPartida + " o " + estacionDestino + "no son estaciones validas");
+            throw new RecorridoException(estacionPartida + " o " + estacionDestino + " no son estaciones validas");
         }
 
         this.estacionPartida = estacionPartida;
