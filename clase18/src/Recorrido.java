@@ -1,10 +1,13 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class Recorrido {
 
     private String estacionPartida;
     private String estacionDestino;
+
+    private static List<String> estaciones = Arrays.asList("buenos aires", "lujan", "mercedes", "suipacha", "chivilcoy", "alberti", "bragado");
 
     public Recorrido(String estacionPartida, String estacionDestino) throws RecorridoException {
         if (!getEstacionesPosibles().contains(estacionPartida.toLowerCase()) ||
@@ -15,22 +18,10 @@ public class Recorrido {
 
         this.estacionPartida = estacionPartida;
         this.estacionDestino = estacionDestino;
-
     }
 
     public List<String> getEstacionesPosibles(){
-
-        List<String> estacionesPosibles = new ArrayList<>();
-
-        estacionesPosibles.add("buenos aires");
-        estacionesPosibles.add("lujan");
-        estacionesPosibles.add("mercedes");
-        estacionesPosibles.add("suipacha");
-        estacionesPosibles.add("chivilcoy");
-        estacionesPosibles.add("alberti");
-        estacionesPosibles.add("bragado");
-
-        return estacionesPosibles;
+        return estaciones;
     }
 
 
