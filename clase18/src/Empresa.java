@@ -24,4 +24,14 @@ public class Empresa {
         
         return cantPersonas;
     }
+
+    public Double totalRecaudado(){
+        double total = 0;
+
+        for (Reserva reserva: reservas) {
+            total += reserva.recaudacionTotal();
+        }
+
+        return total;
+    }
 }
