@@ -12,8 +12,13 @@ public class Empresa {
         empleados = new ArrayList<>();
     }
 
-    public  void agregarEmpleado(Empleado empleado){
-        empleados.add(empleado);
+    public  void agregarEmpleado(String codigoEmpleado){
+
+        try {
+            empleados.add(EmpleadoFactory.getInstance().crearEmpleado(codigoEmpleado));
+        } catch (EmpleadoFactoryException e) {
+            e.printStackTrace();
+        }
     }
 
     public double calcularSueldosTotal(int dias){

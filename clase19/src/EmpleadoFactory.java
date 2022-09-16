@@ -1,5 +1,8 @@
 public class EmpleadoFactory {
 
+
+    public static final String CODIGO_CONTRATADO = "EMP-RD";
+    public static final String CODIGO_DEPENDIENTE = "EMP-PH";
     private static EmpleadoFactory instance;
 
     private EmpleadoFactory (){}
@@ -12,13 +15,18 @@ public class EmpleadoFactory {
     }
 
     public Empleado crearEmpleado(String codigo) throws EmpleadoFactoryException{
+
+        if (codigo == null){
+            throw new EmpleadoFactoryException("el codigo no puede ser nulo");
+        }
+
         switch (codigo){
-            case "EMP-RD" :
+            case CODIGO_CONTRATADO:
                 return new EmpleadoReleacionDependencia("pablo", "velez", 1, 1000.0);
-            case "EMP-PH" :
+            case CODIGO_DEPENDIENTE:
                 return new EmpleadoContratado("gaston", "innamorato", 2, 7.0, 0.14);
             default:
-                throw new EmpleadoFactoryException("codigo no valido");
+                throw new EmpleadoFactoryException(codigo + " no es un codigo valido");
         }
     }
 }

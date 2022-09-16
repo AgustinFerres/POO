@@ -5,16 +5,12 @@ public class Main {
         Empresa empresa = new Empresa("hola");
 
 
-        try {
-            empresa.agregarEmpleado(EmpleadoFactory.getInstance().crearEmpleado("EMP-RD"));
-        } catch (EmpleadoFactoryException e) {
-            e.printStackTrace();
-        }
-        try {
-            empresa.agregarEmpleado(EmpleadoFactory.getInstance().crearEmpleado("EMP-PH"));
-        } catch (EmpleadoFactoryException e) {
-            e.printStackTrace();
-        }
+        empresa.agregarEmpleado(null);
+        empresa.agregarEmpleado(EmpleadoFactory.CODIGO_CONTRATADO);
+        empresa.agregarEmpleado(EmpleadoFactory.CODIGO_DEPENDIENTE);
+        empresa.agregarEmpleado(EmpleadoFactory.CODIGO_DEPENDIENTE);
+        empresa.agregarEmpleado("132331");
+        empresa.agregarEmpleado(EmpleadoFactory.CODIGO_CONTRATADO);
 
 
         System.out.println(empresa.calcularSueldosTotal(10));
