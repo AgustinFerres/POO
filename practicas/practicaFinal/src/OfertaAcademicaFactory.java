@@ -18,7 +18,7 @@ public class OfertaAcademicaFactory {
 
     public OfertaAcademica crearOfertaAcademica(String codigo) throws OfertaAcademicaFactoryException {
         if (codigo == null){
-            throw new OfertaAcademicaFactoryException("no puede ser nulo pibe, q te pensas");
+            throw new OfertaAcademicaFactoryException(" no puede ser nulo pibe, q te pensas");
         }
         switch (codigo){
             case CODIGO_FRONT :
@@ -33,7 +33,7 @@ public class OfertaAcademicaFactory {
 
                 return FULL_STACK;
             default:
-                throw new OfertaAcademicaFactoryException(codigo + "no es un codigo valido");
+                throw new OfertaAcademicaFactoryException(codigo + " no es un codigo valido");
 
         }
     }
