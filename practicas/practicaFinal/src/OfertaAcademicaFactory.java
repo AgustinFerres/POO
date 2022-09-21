@@ -22,14 +22,14 @@ public class OfertaAcademicaFactory {
         }
         switch (codigo){
             case CODIGO_FRONT :
-                return new Curso(CODIGO_FRONT, "Curso", 16, 2, 1000.0);
+                return new Curso(CODIGO_FRONT, "Curso", 16, 2.0, 1000.0);
             case CODIGO_BACK:
-                return new Curso(CODIGO_BACK, "Curso", 20, 2, 900.0);
+                return new Curso(CODIGO_BACK, "Curso", 20, 2.0, 900.0);
             case CODIGO_FULL_STACK:
                 ProgramaIntensivo FULL_STACK = new ProgramaIntensivo(CODIGO_FULL_STACK, "Programa Intensivo", 0.2);
 
-                FULL_STACK.agregarCurso(new Curso(CODIGO_FRONT, "Curso", 16, 2, 1000.0));
-                FULL_STACK.agregarCurso(new Curso(CODIGO_BACK, "Curso", 20, 2, 900.0));
+                FULL_STACK.agregarCurso(new Curso(CODIGO_FRONT, "Curso", 16, 2.0, 1000.0));
+                FULL_STACK.agregarCurso(new Curso(CODIGO_BACK, "Curso", 20, 2.0, 900.0));
 
                 return FULL_STACK;
             default:

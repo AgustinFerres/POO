@@ -1,10 +1,10 @@
 public class Curso extends OfertaAcademica{
 
     private Integer horasMensuales;
-    private Integer duracionMesses;
+    private Double duracionMesses;
     private Double precioXHora;
 
-    public Curso(String nombre, String descripcion, Integer horasMensuales, Integer duracionMesses, Double precioXHora) {
+    public Curso(String nombre, String descripcion, Integer horasMensuales, Double duracionMesses, Double precioXHora) {
         super(nombre, descripcion);
         this.horasMensuales = horasMensuales;
         this.duracionMesses = duracionMesses;
@@ -16,7 +16,7 @@ public class Curso extends OfertaAcademica{
         return horasMensuales * duracionMesses *precioXHora;
     }
 
-    public Integer getDuracionMesses() {
+    public Double getDuracionMesses() {
         return duracionMesses;
     }
 }
