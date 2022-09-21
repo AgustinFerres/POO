@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Clase1/Clase1.iml" filepath="$PROJECT_DIR$/Clase1/Clase1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/c3clase12/c3clase12.iml" filepath="$PROJECT_DIR$/c3clase12/c3clase12.iml" />
+      <module fileurl="file://$PROJECT_DIR$/clase10/clase10.iml" filepath="$PROJECT_DIR$/clase10/clase10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/clase11/clase11.iml" filepath="$PROJECT_DIR$/clase11/clase11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/clase13/clase13.iml" filepath="$PROJECT_DIR$/clase13/clase13.iml" />
+      <module fileurl="file://$PROJECT_DIR$/clase14preParcial/clase14preParcial.iml" filepath="$PROJECT_DIR$/clase14preParcial/clase14preParcial.iml" />
+      <module fileurl="file://$PROJECT_DIR$/clase16/clase16.iml" filepath="$PROJECT_DIR$/clase16/clase16.iml" />
+      <module fileurl="file://$PROJECT_DIR$/clase17/clase17.iml" filepath="$PROJECT_DIR$/clase17/clase17.iml" />
+      <module fileurl="file://$PROJECT_DIR$/clase18/clase18.iml" filepath="$PROJECT_DIR$/clase18/clase18.iml" />
+      <module fileurl="file://$PROJECT_DIR$/clase19/clase19.iml" filepath="$PROJECT_DIR$/clase19/clase19.iml" />
+      <module fileurl="file://$PROJECT_DIR$/clase2/clase2.iml" filepath="$PROJECT_DIR$/clase2/clase2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/clase3/clase3.iml" filepath="$PROJECT_DIR$/clase3/clase3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/clase4/clase4.iml" filepath="$PROJECT_DIR$/clase4/clase4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/clase5/clase5.iml" filepath="$PROJECT_DIR$/clase5/clase5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/clase6/clase6.iml" filepath="$PROJECT_DIR$/clase6/clase6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/clases.iml" filepath="$PROJECT_DIR$/.idea/clases.iml" />
+      <module fileurl="file://$PROJECT_DIR$/primeraSemana/primeraSemana.iml" filepath="$PROJECT_DIR$/primeraSemana/primeraSemana.iml" />
+    </modules>
+  </component>
+</project>
