@@ -1,10 +1,9 @@
-public abstract class OfertaAcademica {
+public abstract class Pizza {
 
     private String nombre;
-
     private String descripcion;
 
-    public OfertaAcademica(String nombre, String descripcion) {
+    public Pizza(String nombre, String descripcion) {
         this.nombre = nombre;
         this.descripcion = descripcion;
     }
@@ -13,6 +12,6 @@ public abstract class OfertaAcademica {
 
     @Override
     public String toString() {
-        return this.getClass().toString().replaceAll("class", "") + " " + nombre + ": $" + calcularPrecio().toString() + "\n";
+        return this.getClass().toString().replaceAll("class", "") + " " + nombre + " $" + calcularPrecio().toString() + "\n";
     }
 }

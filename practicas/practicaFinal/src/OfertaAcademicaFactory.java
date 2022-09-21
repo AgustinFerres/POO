@@ -28,8 +28,8 @@ public class OfertaAcademicaFactory {
             case CODIGO_FULL_STACK:
                 ProgramaIntensivo FULL_STACK = new ProgramaIntensivo(CODIGO_FULL_STACK, "Programa Intensivo", 0.2);
 
-                FULL_STACK.agregarCurso(new Curso(CODIGO_FRONT, "Curso", 16, 2.0, 1000.0));
-                FULL_STACK.agregarCurso(new Curso(CODIGO_BACK, "Curso", 20, 2.0, 900.0));
+                FULL_STACK.agregarCurso(crearOfertaAcademica(CODIGO_FRONT));
+                FULL_STACK.agregarCurso(crearOfertaAcademica(CODIGO_BACK));
 
                 return FULL_STACK;
             default:
