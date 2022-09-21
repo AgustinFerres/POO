@@ -18,6 +18,8 @@ public class Instituto {
     }
 
     public void generarInforme(){
-        System.out.println(ofertas.toString().replaceAll(",",""));
+        for (OfertaAcademica oferta : ofertas) {
+            System.out.println(oferta);
+        }
     }
 }
