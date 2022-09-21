@@ -17,7 +17,7 @@ public class Instituto {
         }
     }
 
-    public String generarInforme(){
-        return ofertas.toString().replaceAll(",","");
+    public void generarInforme(){
+        System.out.println(ofertas.toString().replaceAll(",",""));
     }
 }

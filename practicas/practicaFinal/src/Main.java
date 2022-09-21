@@ -7,6 +7,6 @@ public class Main {
         digitial.agregarOfertas(OfertaAcademicaFactory.CODIGO_FULL_STACK);
 
 
-        System.out.println(digitial.generarInforme());
+        digitial.generarInforme();
     }
 }
