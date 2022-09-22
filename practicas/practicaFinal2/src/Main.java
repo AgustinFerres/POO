@@ -7,7 +7,7 @@ public class Main {
         pizzeria.agregarPizza("PizzaFactory.MUZZA_CHICA");
         pizzeria.agregarPizza(null);
         pizzeria.agregarPizza(PizzaFactory.ESPECIAL_CHICA);
-        pizzeria.agregarPizza(PizzaFactory.LOCA_CHICA);
+        pizzeria.agregarPizza(PizzaFactory.LOCA_GRANDE);
 
         pizzeria.mostrarPizzas();
     }
