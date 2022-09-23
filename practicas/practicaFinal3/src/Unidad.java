@@ -13,6 +13,6 @@ public abstract class Unidad {
 
     @Override
     public String toString() {
-        return this.getClass().toString().replaceAll("class", "") + " " + nombre + " $" + calcularMonto().toString();
+        return this.getClass().toString().replaceAll("class", "") + " " + nombre + " $" + calcularMonto();
     }
 }
